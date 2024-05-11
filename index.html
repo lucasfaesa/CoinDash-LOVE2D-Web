@@ -21,26 +21,6 @@ html, body
 	border-bottom: 21px solid transparent;
 	box-sizing: border-box;
 }
-#title
-{
-	background-color: #ea316e;
-	margin: 9px;
-	padding: .8em;
-	border: 1px solid black;
-	border-radius: 10px;
-	box-shadow: 3px 3px 0 0 rgba(0,0,0,0.3);
-	text-align: center;
-	color: #f5f5f5;
-}
-#main
-{
-	background-color: #b1e3fa;
-	margin: 9px;
-	padding: 15px 0;
-	border: 1px solid black;
-	border-radius: 10px;
-	box-shadow: 3px 3px 0 0 rgba(0,0,0,0.3);
-}
 #footer
 {
 	background-color: #b1e3fa;
@@ -52,8 +32,6 @@ html, body
 	text-align: center;
 	overflow-y: auto;
 }
-#footer a { color: #77A; }
-#footer a:hover, #footera:active { color: #ea316e; }
 @media (max-width: 850px)
 {
 	#wrapper { font-size: 80%; }
@@ -63,12 +41,10 @@ html, body
 </head>
 <body>
 <div id="wrapper">
-	<h1 id="title">Coin Dash</h1>
 	<div id="main">
 		<center><canvas id="canvas" width="480" height="719" style="max-width:100%;background:#000;vertical-align:middle"></canvas></center>
 	</div>
 </div>
-<div id="footer">Made using the <a href="https://love2d.org/" target="_blank">LÖVE Framework</a> (<a href="https://raw.githubusercontent.com/love2d/love/main/license.txt" target="_blank">License</a>) &middot; Packaged using <a href="https://schellingb.github.io/LoveWebBuilder/" target="_blank">LÖVE Web Builder</a></div>
 <script type="text/javascript">(function(){
 var TXT =
 {
